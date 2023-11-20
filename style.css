@@ -1,0 +1,506 @@
+/*! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com*/
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+:after,
+:before {
+  --tw-content: "";
+}
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+}
+body {
+  margin: 0;
+  line-height: inherit;
+}
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: initial;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+table {
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+  background-color: initial;
+  background-image: none;
+}
+:-moz-focusring {
+  outline: auto;
+}
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+progress {
+  vertical-align: initial;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
+}
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
+fieldset {
+  margin: 0;
+}
+fieldset,
+legend {
+  padding: 0;
+}
+menu,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+dialog {
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+[role="button"],
+button {
+  cursor: pointer;
+}
+:disabled {
+  cursor: default;
+}
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+  vertical-align: middle;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+[hidden] {
+  display: none;
+}
+*,
+::backdrop,
+:after,
+:before {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: #3b82f680;
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.-right-1 {
+  right: -0.25rem;
+}
+.right-\[27px\] {
+  right: 27px;
+}
+.right-\[85px\] {
+  right: 85px;
+}
+.top-\[16px\] {
+  top: 16px;
+}
+.top-\[65px\] {
+  top: 65px;
+}
+.m-auto {
+  margin: auto;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.mb-80 {
+  margin-bottom: 20rem;
+}
+.block {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+.h-\[100svh\] {
+  height: 100svh;
+}
+.h-\[58px\] {
+  height: 58px;
+}
+.w-\[100\%\] {
+  width: 100%;
+}
+.w-\[14px\] {
+  width: 14px;
+}
+.w-\[75px\] {
+  width: 75px;
+}
+.max-w-\[375px\] {
+  max-width: 375px;
+}
+.max-w-\[38\%\] {
+  max-width: 38%;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.rounded-\[28px\] {
+  border-radius: 28px;
+}
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+.border {
+  border-width: 1px;
+}
+.border-\[\#ce9797\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(206 151 151 / var(--tw-border-opacity));
+}
+.bg-\[url\(\'\.\/img\/hero-desktop\.jpg\'\)\] {
+  background-image: url(/img/hero-desktop.jpg);
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.pl-5 {
+  padding-left: 1.25rem;
+}
+.pl-6 {
+  padding-left: 1.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.font-josefin {
+  font-family: Josefin Sans, sans-serif;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.text-\[\#ce9797\] {
+  --tw-text-opacity: 1;
+  color: rgb(206 151 151 / var(--tw-text-opacity));
+}
+.text-\[\#f96262\] {
+  --tw-text-opacity: 1;
+  color: rgb(249 98 98 / var(--tw-text-opacity));
+}
+.outline-none {
+  outline: 2px solid #0000;
+  outline-offset: 2px;
+}
+.placeholder\:text-\[\#ce9797\]::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(206 151 151 / var(--tw-text-opacity));
+}
+.placeholder\:text-\[\#ce9797\]::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(206 151 151 / var(--tw-text-opacity));
+}
+.hover\:shadow-\[0px_10px_20px_rgba\(249\2c 205\2c 206\2c 1\)\]:hover {
+  --tw-shadow: 0px 10px 20px #f9cdce;
+  --tw-shadow-colored: 0px 10px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+@media not all and (min-width: 1280px) {
+  .max-xl\:m-auto {
+    margin: auto;
+  }
+  .max-xl\:mt-8 {
+    margin-top: 2rem;
+  }
+  .max-xl\:hidden {
+    display: none;
+  }
+  .max-xl\:w-\[85\%\] {
+    width: 85%;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:flex-1 {
+    flex: 1 1 0%;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:-right-1 {
+    right: -0.25rem;
+  }
+  .xl\:right-\[125px\] {
+    right: 125px;
+  }
+  .xl\:right-\[45px\] {
+    right: 45px;
+  }
+  .xl\:mb-20 {
+    margin-bottom: 5rem;
+  }
+  .xl\:flex {
+    display: flex;
+  }
+  .xl\:hidden {
+    display: none;
+  }
+  .xl\:h-screen {
+    height: 100vh;
+  }
+  .xl\:w-\[110px\] {
+    width: 110px;
+  }
+  .xl\:max-w-\[100\%\] {
+    max-width: 100%;
+  }
+  .xl\:max-w-\[150px\] {
+    max-width: 150px;
+  }
+  .xl\:flex-1 {
+    flex: 1 1 0%;
+  }
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+  .xl\:justify-center {
+    justify-content: center;
+  }
+  .xl\:bg-\[url\(\'\.\/img\/bg-pattern-desktop\.svg\'\)\] {
+    background-image: url(/img/bg-pattern-desktop.svg);
+  }
+  .xl\:bg-cover {
+    background-size: cover;
+  }
+  .xl\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .xl\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .xl\:text-left {
+    text-align: left;
+  }
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+.submit-bg {
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+}
+.submit-bg:hover {
+  background-image: linear-gradient(135deg, #f9cdce, #f9cdce);
+}
+
+@media only screen and (max-width: 1280px) {
+  .mobile-bg {
+    background-image: linear-gradient(135deg, #ffffff, #fff5f5);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

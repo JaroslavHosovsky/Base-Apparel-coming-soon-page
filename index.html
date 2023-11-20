@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Base Apparel coming soon page</title>
+  </head>
+  <body class="font-josefin mobile-bg h-[100svh]">
+    <main
+      class="relative max-w-[375px] m-auto xl:max-w-[100%] xl:h-screen xl:flex"
+    >
+      <img
+        src="/img/hero-mobile.jpg"
+        alt=""
+        class="absolute top-[65px] xl:hidden"
+      />
+      <section
+        class="max-xl:w-[85%] max-xl:m-auto max-xl:mt-8 lg:flex-1 xl:bg-[url('./img/bg-pattern-desktop.svg')] xl:bg-cover xl:py-20 xl:px-48 xl:flex xl:flex-col xl:justify-center"
+      >
+        <img
+          src="img/logo.svg"
+          alt=""
+          class="mb-80 xl:mb-20 xl:max-w-[150px]"
+        />
+
+        <h1
+          class="text-5xl xl:text-7xl font-semibold uppercase text-center xl:text-left mb-6"
+        >
+          <span class="font-light text-[#ce9797]">We're</span> coming soon
+        </h1>
+        <p class="text-center xl:text-left xl:text-2xl text-[#ce9797] mb-8">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form action="" class="relative">
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="Email Address"
+            class="border border-[#ce9797] w-[100%] placeholder:text-[#ce9797] text-[#ce9797] outline-none py-4 pl-5 rounded-[28px]"
+          />
+
+          <input
+            type="submit"
+            value=""
+            class="submit-bg w-[75px] xl:w-[110px] h-[58px] rounded-[30px] absolute -right-1 xl:-right-1 cursor-pointer hover:shadow-[0px_10px_20px_rgba(249,205,206,1)] outline-none"
+          />
+          <p class="py-2 pl-6 text-sm text-[#f96262] hidden error-text">
+            Please provide a valid email
+          </p>
+
+          <img
+            src="/img/icon-arrow.svg"
+            alt=""
+            class="absolute right-[27px] xl:right-[45px] top-[16px] w-[14px]"
+          />
+          <img
+            src="/img/icon-error.svg"
+            alt=""
+            class="absolute top-[16px] right-[85px] xl:right-[125px] hidden error-icon"
+          />
+        </form>
+      </section>
+
+      <section
+        class="max-xl:hidden xl:flex-1 max-w-[38%] bg-[url('./img/hero-desktop.jpg')] bg-no-repeat bg-cover"
+      ></section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
